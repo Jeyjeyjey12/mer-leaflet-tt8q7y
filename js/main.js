@@ -134,7 +134,7 @@ async function initMap()
         // check if feature is before the selected year
         const featureDate = new Date(isoDate);
 
-        if(featureDate.getFullYear() != 2023) return;
+        //if(featureDate.getFullYear() != 2023) return;
 
         const marker = L.circle(latlng, {
           radius:      feature.properties.Wert / 2, // in meters here
